@@ -299,7 +299,7 @@ done
 
 # -------- Validate the resulting disk image
 
-spctl -a -t open --context context:primary-signature -v "${DISK_IMAGE_FULL_PATH}"
+spctl --assess --type open --context context:primary-signature -v "${DISK_IMAGE_FULL_PATH}"
 disk_image_validation_result=$?
 
 if [ "${disk_image_validation_result}" != 0 ]

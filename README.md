@@ -17,6 +17,7 @@ All parameters to the `make_disk_image.sh` script are provided through environme
 - `APPLE_ID_MAIL` — The primary e-mail address of the Apple ID member of the team for use in notarization.
 - `APPLE_ID_PASSWORD` – The [app-specific password](https://support.apple.com/en-us/HT204397) of the corresponding Apple ID for use in notarization
 - `APPLE_ID_PROVIDER_SHORT_NAME` — (optional) the short name of the iTunes Provider for app store uploads. Only required if the Apple ID has access to more than uploading apps.
+- `DISK_IMAGE_BACKGROUND_FILE` – (optional) name of `.png` image file that would be the disk image's background shown Finder.
 
 Configure the above environment variables and simply run the script:
 
