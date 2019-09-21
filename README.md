@@ -31,6 +31,9 @@ Configure the above environment variables and simply run the script:
 - Developer ID Account
 - [create-dmg](https://github.com/andreyvit/create-dmg/releases)
 
+## More Information
+
+Refer to [Notarizing Disk Images for Developer ID Distribution](https://cutecoder.org/programming/notarize-disk-image-developer-id-distribution) for background information and details on how this script was put together.
 
 ## License
 
