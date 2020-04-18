@@ -166,6 +166,7 @@ create-dmg \
 --icon "${app_wrapper_name}" 200 190 \
 --hide-extension "${app_wrapper_name}" \
 --app-drop-link 600 185 \
+--no-internet-enable \
 "${DISK_IMAGE_FULL_PATH}" \
 "${disk_image_work_dir}"
 
